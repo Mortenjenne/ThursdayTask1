@@ -11,14 +11,16 @@ void methodOne()
 {
   int i = 1000; // You are not allowed to change this line.
   int max = 10;
+  
   //5.a Output er nu synlig i hele metoden, så den kan bruges i if-blokken
-  String output = " is greater than "+max+".";
+  String output = "i is less than "+max+".";
 
   if (i > max)
   {
     //Hvis i er større end max print værdien af i + output
-    println(i + output);
+    println(i + " is greater than "+max+".");
   }
+  println(output);
 }
 
 /*

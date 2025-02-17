@@ -18,6 +18,9 @@ println(" ");
 //4.c/d Lav et for-loop som tæller 1 ned fra værdien start
 for (int start = 10; start >= 0; start--) {
   //Tæl ned three, two, one og print "Take Off!"
+  if(start > 3) {
+    print(start + ", ");
+  } else if (start >=0) {
   String counterAsString = "";
   switch(start) {
   case 3:
@@ -36,5 +39,6 @@ for (int start = 10; start >= 0; start--) {
     counterAsString = "Take Off!";
     print(counterAsString);
     break;
+  }
   }
 }
